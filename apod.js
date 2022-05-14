@@ -5,7 +5,7 @@ $(document).ready(
 
 function getPicture() {
     $.ajax({
-        url: "https://api.nasa.gov/planetary/apod?api_key=GE5r6C7fP26s1Ta8sSkFkoJtNrvAdddi4FsCj1wS&date=" + $("#date").val(),
+        url: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=" + $("#date").val(),
         type: "GET",
         data: {
             api_key: "DEMO_KEY",
